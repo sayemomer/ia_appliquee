@@ -42,5 +42,8 @@ depth = 3  # Set the depth of the search tree (you can adjust this)
 
 best_eval, best_move = minimax(initial_state, depth, True)
 
-print("Best Move:", best_move)
-print("Best Evaluation Value:", best_eval)
+if best_move is not None:
+    print("Best Move:", best_move)
+    print("Best Evaluation Value:", best_eval)
+else:
+    print("No valid moves.")
