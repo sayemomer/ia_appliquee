@@ -1,3 +1,6 @@
+#supplimentary reading:
+#https://www.neverstopbuilding.com/blog/minimax
+
 # Tic-Tac-Toe board representation:
 # 0 | 1 | 2
 # ---------
