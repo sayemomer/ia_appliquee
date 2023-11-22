@@ -1,0 +1,10 @@
+#ignore any csv data files
+
+#ignore any files in the .git folder
+.git/*
+
+#ignore any files ending in .csv
+*.csv
+
+#ignore any files ending in .txt
+*.txt
